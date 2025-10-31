@@ -2,6 +2,11 @@ userinput = input("Hi whats your name? \n")
 
 print(userinput)
 
-print("Hello"+userinput) #no space
+#no space
+print("Hello"+userinput) 
 
-print("Hello",userinput) #automatically adds a space
+#manually adding space
+print("Hello "+userinput) 
+
+#automatically adds a space
+print("Hello",userinput) 

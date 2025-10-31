@@ -7,7 +7,7 @@ age = input("How old are you?")
 
 #2. print. 
 
-print("You are",name,"with the ID",id,"and are",age,"years old")
+print("You are",name,"with the ID",id,"and you are",age,"years old")
 
 calculated_Age = int(age)+5
 
