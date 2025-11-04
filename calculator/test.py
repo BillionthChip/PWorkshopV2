@@ -1,10 +1,7 @@
+fahrenheit = input("What is the temp? ")
+
+def fahrenheit_to_celsius(fahrenheit):
+    return(fahrenheit - 32) * 5 / 9
 
 
-# count = int(input("Enter a number? "))
-
-# while count < 5:
-# 	print("Too low! Guess again.")
-#     count2 = int(input("Try again "))
-# print("loop is finished")
-for i in range(1,11):
-    print(i)
+fahrenheit_to_celsius(fahrenheit)
